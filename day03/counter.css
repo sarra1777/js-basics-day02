@@ -1,0 +1,22 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#bodycontainer{
+    text-align: center;
+
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: hotpink;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color: pink;
+}
