@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(70, 11, 171);
+            color: rgb(243, 245, 247);
+        }
+
+        #mysub{
+            background-color: aliceblue;
+            color: black;
+            font-size: 1em;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        #mysub:hover{
+            background-color: rgb(70, 11, 171);
+            color: aliceblue;
+            transition: scale(2s)ease-in-out;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="checkbox" name="" id="check">
+    <label for="mycheck">Subscribe</label><br><br>
+
+    <input type="radio" name="card" id="rad">
+    <label for="rad">Visa</label><br>
+
+    <input type="radio" name="card" id="rad2">
+    <label for="rad2">MasterCard</label><br>
+
+    <input type="radio" name="card" id="rad3">
+    <label for="rad3">PayPal</label><br><br>
+
+    <button type="submit"id="mysub">Submit</button><br><br>
+
+    <p id="subres"></p>
+    <p id="payres"></p>
+    <script src="check.js"></script>
+</body>
+</html>
